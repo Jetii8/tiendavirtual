@@ -3,7 +3,15 @@ Bienvenido/a al repositorio de la Tienda Virtual del Salvation Army. Este proyec
 
 ## Descripción
 
-La Tienda Virtual del Salvation Army es una plataforma en línea donde los usuarios pueden explorar, comprar y donar una variedad de productos, incluyendo ropa, electrodomésticos, muebles y más. Los fondos recaudados a través de las ventas se utilizarán para apoyar programas y servicios benéficos del Salvation Army, como refugios de emergencia, programas de alimentación, rehabilitación de adicciones y más.
+El proyecto de Salvation Army tiene como objetivo principal facilitar la gestión de donaciones y recursos para esta organización benéfica. Salvation Army es una organización internacional que busca brindar asistencia y apoyo a comunidades necesitadas en todo el mundo. Este proyecto se centra en el desarrollo de una plataforma tecnológica que permita a Salvation Army administrar eficientemente sus donaciones, gestionar sus recursos y coordinar sus esfuerzos humanitarios.
+
+## Análisis
+
+El análisis inicial del proyecto identificó varias áreas clave de mejora en la gestión de donaciones y recursos por parte de Salvation Army. Estas incluyen la necesidad de una plataforma centralizada para registrar, rastrear y distribuir donaciones, así como para coordinar voluntarios y gestionar proyectos humanitarios. Además, se reconoció la importancia de garantizar la transparencia y la trazabilidad de las donaciones para generar confianza entre los donantes y mejorar la eficiencia operativa de la organización.
+
+## Solución
+
+La solución propuesta consiste en el desarrollo de una aplicación web personalizada que integra funcionalidades clave para la gestión de donaciones y recursos de Salvation Army. La aplicación permitirá a los usuarios realizar donaciones en línea, registrar y rastrear el inventario de recursos, coordinar la asignación de voluntarios a proyectos específicos y generar informes detallados sobre el uso de los fondos y recursos. Además, se implementarán medidas de seguridad robustas y controles de acceso para garantizar la integridad y confidencialidad de los datos de donantes y beneficiarios.
 
 ## Características Principales
 
