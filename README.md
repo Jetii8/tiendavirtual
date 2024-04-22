@@ -13,6 +13,15 @@ El análisis inicial del proyecto identificó varias áreas clave de mejora en l
 
 La solución propuesta consiste en el desarrollo de una aplicación web personalizada que integra funcionalidades clave para la gestión de donaciones y recursos de Salvation Army. La aplicación permitirá a los usuarios realizar donaciones en línea, registrar y rastrear el inventario de recursos, coordinar la asignación de voluntarios a proyectos específicos y generar informes detallados sobre el uso de los fondos y recursos. Además, se implementarán medidas de seguridad robustas y controles de acceso para garantizar la integridad y confidencialidad de los datos de donantes y beneficiarios.
 
+## La arquitectura
+
+La arquitectura propuesta consta de varios componentes interconectados para construir una aplicación web escalable. En la capa frontal, el "Cliente Web" interactúa con un "Servidor Web" que maneja las solicitudes HTTP utilizando Apache HTTP Server. Opcionalmente, se puede agregar un "Balanceador de Carga" para distribuir las solicitudes entrantes entre múltiples servidores de aplicaciones.
+
+En la siguiente capa, los "Servidores de Aplicaciones" como Apache Tomcat o Java EE reciben las solicitudes HTTP y las dirigen hacia la "Capa de Lógica de Negocio", donde se procesan y manejan mediante controladores, servicios y repositorios Java. Esta capa encapsula la lógica de negocio de la aplicación, incluyendo la gestión de productos, usuarios y pedidos.
+
+Finalmente, la información se almacena y recupera desde una "Base de Datos", como MySQL, que contiene tablas para productos, usuarios y pedidos. Esta arquitectura permite una separación clara de responsabilidades y escalabilidad, facilitando el desarrollo y mantenimiento de la aplicación web.
+
+
 ## Características Principales
 
 - Catálogo de productos con imágenes, descripciones y precios.
@@ -27,7 +36,7 @@ La solución propuesta consiste en el desarrollo de una aplicación web personal
 - Frontend: HTML, CSS, JavaScript (React.js)
 - Backend: Node.js, Express.js
 - Base de Datos: MongoDB
-- Otros: Git, GitHub, Zube (administrador de proyectos)
+- Otros: Git, GitLab, Zube, Travis-Ci (administrador de proyectos)
 
 ## Instalación
 
@@ -44,12 +53,6 @@ less
 Copy code
 4. Abre tu navegador y visita http://localhost:3000 para ver la tienda virtual en acción.
 
-## Contribución
 
-Si estás interesado/a en contribuir al desarrollo de la Tienda Virtual del Salvation Army, ¡estamos encantados de recibir tu ayuda! Por favor, consulta nuestras pautas de contribución en [CONTRIBUTING.md](CONTRIBUTING.md) para obtener más información.
 
-## Contacto
 
-Si tienes alguna pregunta, sugerencia o problema relacionado con la Tienda Virtual del Salvation Army, no dudes en ponerte en contacto con nosotros a través de nuestro correo electrónico de soporte: support@salvationarmyvirtualstore.com.
-
-¡Gracias por tu interés y apoyo en nuestro proyecto!
